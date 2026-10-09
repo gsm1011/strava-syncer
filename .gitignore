@@ -1,0 +1,5 @@
+.env
+data/
+output/
+corporate-ca-bundle.pem
+__pycache__/

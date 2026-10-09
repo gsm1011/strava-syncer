@@ -1,0 +1,13 @@
+services:
+  strava-poster:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - poster-output:/app/output
+      - poster-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  poster-output:
+  poster-data:

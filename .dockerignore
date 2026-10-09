@@ -1,0 +1,9 @@
+.git
+__pycache__
+output
+*.csv
+*.png
+*.svg
+.env
+data
+corporate-ca-bundle.pem
